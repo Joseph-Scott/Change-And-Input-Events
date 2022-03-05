@@ -5,6 +5,6 @@ const h1 = document.querySelector('h1');
 //   console.log("VJDAIJDJIAVJID");
 // });
 
-input.addEventListener('change', function (e) {
+input.addEventListener('input', function (e) {
   h1.innerText = input.value;
 });
